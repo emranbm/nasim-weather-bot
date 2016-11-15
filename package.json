@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/emranbm/nasim-weather-bot/issues"
   },
-  "homepage": "https://github.com/emranbm/nasim-weather-bot#readme"
+  "homepage": "https://github.com/emranbm/nasim-weather-bot#readme",
+  "dependencies": {
+    "nasim-bot": "^1.2.2"
+  }
 }
