@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/emranbm/nasim-weather-bot#readme",
   "dependencies": {
-    "nasim-bot": "^1.2.2"
+    "nasim-bot": "^1.2.2",
+    "sync-request": "^3.0.1"
   }
 }
