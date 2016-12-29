@@ -28,8 +28,8 @@ bot.setDefaultCallback((message, responder) => {
         msg += "اندازه گیری شده در ساعت " + w.time;
     } else {
         msg = "شهر مورد نظر پیدا نشد." + "\n";
-        if (message.text.charCodeAt(0) > 122)
-            msg += "لطفا اسم شهر خود را به انگلیسی وارد کنید."
+        if (message.text.charCodeAt(0) <= 122)
+            msg += "لطفا اسم شهر خود را به فارسی وارد کنید."
     }
 
 
