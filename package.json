@@ -1,6 +1,6 @@
 {
   "name": "weather-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A weather bot for Nasim messaging app.",
   "main": "index.js",
   "scripts": {
