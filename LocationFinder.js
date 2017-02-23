@@ -5,7 +5,7 @@
 const fs = require('fs');
 
 module.exports = function () {
-    let str = fs.readFileSync("./locations.txt").toString();
+    let str = fs.readFileSync(__dirname + "/locations.txt").toString();
 
     let arr = str.split("\n");
 
